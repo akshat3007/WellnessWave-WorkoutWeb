@@ -3,5 +3,6 @@ langchain
 langchain-groq
 python-dotenv
 requests
-httpx
+httpx==0.27.2
 aiohttp
+openai==1.55.3

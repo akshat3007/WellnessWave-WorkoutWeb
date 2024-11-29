@@ -5,6 +5,8 @@ from langchain.prompts import ChatPromptTemplate
 from typing import Dict
 import os
 
+os.environ["HTTP_PROXY"] = ""
+os.environ["HTTPS_PROXY"] = ""
 class FitnessProfile:
     def __init__(self, gender: str, age: int, weight: float, goal: str):
         self.gender = gender
